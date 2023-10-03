@@ -8,7 +8,7 @@ It checks for SMB dialect 3.1.1 and compression capability through a negotiate r
 A network dump of the scanner running against a Windows 2019 Server (10.0.0.133) can be found under `SMBGhost.pcap`. 
 
 ## Usage
-`python3 scanner.py <IP>`
+`python3 scanner.py <IP/Subnet/Target file/FQDN> <outputfile>`
 
 ## Workarounds
 [ADV200005 | Microsoft Guidance for Disabling SMBv3 Compression](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/adv200005)
